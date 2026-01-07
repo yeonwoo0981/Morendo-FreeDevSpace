@@ -8,7 +8,7 @@ namespace SYW._01_Scripts
     {
         private void Start()
         {
-            gameObject.transform.DOScale(new Vector3(2.5f, 2.5f, 2.5f), 1.2f)
+            gameObject.transform.DOScale(new Vector3(2.5f, 1.2f), 1.2f)
                 .SetLoops(10, LoopType.Yoyo);
         }
     }
